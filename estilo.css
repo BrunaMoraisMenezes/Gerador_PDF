@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.form-group {
+  display: flex;
+  align-items: right;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #333333;
+}
+
+p {
+  text-align: center;
+  color: gray;
+  margin-top: 0%;
+  font-size: medium;
+  font-weight: bold
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 800px;
+  margin: 4% auto;
+  bottom: 30%;
+  height: 50%;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-right: 20px;
+  font-size: medium;
+}
+
+input[type="text"]:hover {
+  background-color: #ffffff;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.button-container button {
+  width: 40%;
+  background-color: #FF0000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.button-container button:hover {
+  background-color: #f71d1d;
+}
+
+input[type='file'] {
+  display: none
+}
+
+.input-file label {
+  width: 80%;
+  background-color: white;
+  color: black;
+  padding: 10px 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: medium;
+  width: 140px;
+  font-style: bold;
+}
+
+.input-file label:hover {
+  width: 80%;
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: medium;
+  width: 140px;
+  font-style: bold;
+}
